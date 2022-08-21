@@ -1,0 +1,82 @@
+.profile_page {
+  width: 100%;
+  height: 100vh;
+  margin-top: 4rem;
+  padding-left: calc(25vw);
+  padding-right: calc(25vw);
+  padding-top: calc(10vh);
+}
+.profile_container {
+  /* background-color: rgba(104, 115, 148, 0.866); */
+  background: linear-gradient(
+    0deg,
+    rgba(191, 191, 255, 1) 20%,
+    rgba(221, 190, 225, 1) 50%,
+    rgba(255, 191, 191, 1) 100%
+  );
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'name'
+    'photo'
+    'date'
+    'movies';
+  padding: 0 3rem 0 3rem;
+  border-radius: 5px;
+  box-shadow: black 2px 2px 6px;
+}
+.name_container {
+  grid-area: name;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.profile_name {
+  color: white;
+  text-transform: capitalize;
+}
+.profile_img_container {
+  grid-area: photo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_photo {
+  width: 50%;
+  height: auto;
+}
+.member_date_container {
+  grid-area: date;
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+.since_date {
+  color: white;
+  font-size: 1.5rem;
+}
+.profile_movie_list_container {
+  grid-area: movies;
+}
+.profile_fav_container {
+  text-align: center;
+}
+.profile_fav_movies {
+  color: white;
+  text-transform: capitalize;
+}
+.profile_watchlist_container {
+  text-align: center;
+}
+.profile_watchlist_movies {
+  color: white;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  .profile_page {
+    padding: 2rem;
+    height: auto;
+  }
+}

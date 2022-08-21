@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.pagination_container {
+  width: 100%;
+  height: 6rem;
+  z-index: 9;
+}
+
+.pagination_container nav {
+  position: relative;
+}
+
+.dashboard-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.page-indicator {
+  color: #7f66de;
+  font-family: 'Inter', sans-serif;
+}

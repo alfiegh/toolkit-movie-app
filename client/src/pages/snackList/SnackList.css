@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.snacklist {
+	min-height: 94vh;
+	background-color: #0e1014;
+	background-image: url("../../../public/images/endless-constellation.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 94;
+	font-family: 'Inter', sans-serif;
+}
+
+.snacklist-container {
+	display: flex;
+}
+
+.snacklist-title {
+	font-family: 'Inter', sans-serif;
+	font-weight: bolder;
+	color: #f2f4fa;
+	margin-top: 100px;
+}
+
+.snacklist-sub-title {
+	color: #f2f4fa;
+}
+
+.snacklist-text {
+	font-weight: 600;
+	color: #f2f4fa;
+}
+
+.snack-list {
+	height: 45vh;
+	background-image: url(https://images.unsplash.com/photo-1512149074996-e923ac45be6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	overflow-y: scroll;
+	/* background-color: #0e101485; */
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.modal-btn {
+	background-image: linear-gradient(to right top, #5482e9, #577ee6, #5b7be4, #5e77e1, #6173de, #616edc, #616ad9, #6165d7, #5e5ed5, #5c56d2, #5a4fcf, #5847cc);
+	border: none;
+	padding: 10px 30px;
+}

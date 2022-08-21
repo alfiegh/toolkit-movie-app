@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.favorites {
+  background-color: #2c2c2e;
+  min-height: 94;
+  padding-bottom: 25px;
+}
+
+.fav_wrapper {
+  width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.fav_title {
+  color: #f1f1f1;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  margin-top: 100px !important;
+  padding: 25px;
+}
+
+.fav_movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+@media (max-width: 720px) {
+  .fav_movies {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .fav_movies {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pagination-button {
+  background-color: transparent;
+  border: 1px solid #c59108;
+  font-weight: bold;
+  color: #c59108;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.pagination-button:hover {
+  color: #a5becc;
+  border: 1px solid #a5becc;
+}
+
+.trending-gif {
+  width: 40px;
+}
+
+.spinner-container {
+  min-height: 96vh;
+  display: flex;
+  justify-content: center;
+  background-color: #0e1014;
+}
+
+.my-spinner {
+  margin-top: 100px;
+}

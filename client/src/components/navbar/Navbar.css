@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+nav {
+  position: fixed;
+}
+.movienest-navbar {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background-color: #9079c0;
+}
+
+.navbar-brand {
+  color: #f2f4fa;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-family: 'Inter', sans-serif;
+  transition: 0.3s all ease-in;
+}
+
+.navbar-brand:hover {
+  background-color: #6b3ec2;
+  color: #f2f4fa;
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nav-link {
+  color: #f2f4fa !important;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 10px;
+  transition: 0.3s all ease;
+}
+
+.nav-link-btn {
+  border: none;
+  background-color: transparent;
+  color: #2c3333 !important;
+}
+
+.nav-link-btn a {
+  text-decoration: none;
+}
+
+.dropdown-link {
+  color: #f1f1f1 !important;
+}
+
+.logout-item:hover {
+  background-color: #686c6c39;
+}
+
+.profile-picture {
+  width: 35px;
+}
+
+.account-wrapper {
+  padding: 5px;
+  color: #f1f1f1;
+  font-weight: bold;
+}
+
+.movienest-navbar a.active {
+  border-radius: 5px;
+  background-color: #6b3ec2;
+}
+
+.movienest-container .nav-link.active {
+  border-radius: 5px;
+  background-color: #6b3ec2;
+  color: #f2f4fa;
+}
+
+.movienest-container .nav-link:hover {
+  transition: 0.3s all ease;
+  border: 2px solid #6b3ec2 !important;
+  border-radius: 5px;
+  background-color: #6b3ec2;
+  color: #f2f4fa;
+}
+
+.scrolled {
+  transition: all 0.7s ease-in;
+  width: 100%;
+  position: fixed;
+  background-color: #8366c0;
+  top: 0;
+  left: 0;
+}

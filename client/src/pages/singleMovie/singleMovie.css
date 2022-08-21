@@ -1,0 +1,127 @@
+.sm_container {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 5rem;
+}
+
+.sm_wrapper {
+  width: 80%;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  background: radial-gradient(
+    circle,
+    rgba(174, 161, 234, 0.8) 0%,
+    rgba(216, 148, 233, 0.8) 100%
+  );
+  z-index: 3;
+  display: grid;
+  grid-template-areas: 'image data data data data';
+  border-radius: 5px;
+}
+
+.sm_img_container {
+  height: inherit;
+  width: calc(100% / 2);
+  grid-area: image;
+  border-radius: 5px;
+}
+
+.sm_img_container img {
+  height: 100%;
+  width: auto;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+
+.sm_data_container {
+  grid-area: data;
+  padding: 1rem;
+  background: rgba(70, 68, 68, 0.31);
+}
+
+.sm_title_container {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+.sm_overview_container {
+  color: white;
+  text-shadow: 0.5px 0.5px 0.5px black;
+  font-weight: 300;
+}
+.sm_g_p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.sm_genres_container ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sm_genres_container li {
+  padding: 5px;
+  margin: 0 5px 0 5px;
+  border-radius: 10px;
+  background: rgba(235, 235, 235, 0.607);
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.sm_production_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+.sm_production_container img {
+  max-height: 5rem;
+  width: auto;
+}
+.sm_release_date_container {
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+}
+.sm_runtime_container {
+  color: black;
+  font-weight: 500;
+}
+.sm_homepage_container {
+  color: white;
+}
+
+.sm_homepage_container a {
+  color: white;
+}
+.sm_vote_container {
+  color: black;
+  font-weight: 400;
+}
+
+@media (max-width: 920px) {
+  .sm_container {
+    height: 100%;
+  }
+  .sm_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sm_img_container {
+    width: 100%;
+  }
+
+  .sm_img_container img {
+    width: 100%;
+  }
+
+  .sm_title_container {
+    margin-top: 1rem;
+  }
+}

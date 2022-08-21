@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.add-snack-button {
+	color: #f2f4fa;
+	background-image: linear-gradient(to right top, #5482e9, #577ee6, #5b7be4, #5e77e1, #6173de, #616edc, #616ad9, #6165d7, #5e5ed5, #5c56d2, #5a4fcf, #5847cc);
+	border: none;
+	padding: 7px 50px;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+.modal-content {
+	padding: 10px;
+	font-family: 'Inter', sans-serif;
+	margin-top: 100px;
+}
+
+/* .snacklist-form {
+	display: flex;
+	flex-direction: column;
+	padding: 25px;
+	width: 40%;
+	margin: auto;
+} */
+
+/* .snacklist-form-title {
+	color: #f2f4fa;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.snacklist-form label {
+	color: #f2f4fa;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+}
+
+.snacklist-form input {
+	background-color: #f7fef9;
+	font-family: 'Poppins', sans-serif;
+} */
