@@ -1,6 +1,6 @@
 # Movie Social Media App
 
-App refactored from Redux to Redux toolkit. Originally from [Giorgi](https://github.com/giorgigutsaevi/redux-movie-social-app)
+App refactored from Redux to Redux toolkit. Originally from [Giorgi](https://github.com/giorgigutsaevi/redux-movie-social-app).
 Some CSS redone, this was made to practice Toolkit concepts so a lot of responsiveness to do.
 
 ## Extra functionality.
