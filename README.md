@@ -1,4 +1,4 @@
-# Movie Social Media App
+# Movie Social Media App.
 
 App refactored from Redux to Redux toolkit. Originally from [Giorgi](https://github.com/giorgigutsaevi/redux-movie-social-app).
 Some CSS redone, this was made to practice Toolkit concepts so a lot of responsiveness to do.
@@ -14,6 +14,15 @@ Some CSS redone, this was made to practice Toolkit concepts so a lot of responsi
 - [ ] Users can add to Watchlist from anywhere.
 - [ ] Users can remove from Favorites or Watchlist from anywhere.
 - [ ] Users can click on Learn More to see unique details of the movie.
+
+### To run this app.
+
+1. Run _npm install_ on each folder to get all dependencies.
+2. You will need your own API key from [TMDB](https://www.themoviedb.org/?language=en-GB)
+3. In the backend folder will need to define your PORT in an .env file
+4. You will need your own _MongoDB_ access link to your database in the backend .env file
+5. You will need your own JWT Secret in the backend .env file
+6. You need to run the scripts in both client and backend.
 
 _From [Gio](https://github.com/giorgigutsaevi/redux-movie-social-app) own's readme_
 
